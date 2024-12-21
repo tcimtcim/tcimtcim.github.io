@@ -1,0 +1,37 @@
+.menu {
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,0.5);
+  white-space:no-wrap;
+}
+
+.menu {
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+  height:215px;
+  white-space: nowrap;
+  overflow-x:scroll;
+  z-index:999;
+}
+
+.menu .item {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  padding: 40px;
+  font-size: 60px;
+  line-height: 100px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  box-shadow:inset -7px 0 50px -7px rgba(0,0,0,.5);
+  color: #fff;
+  cursor: pointer;
+  user-select:none;
+  border:10px solid rgba(0,0,0,0.5);
+  border-right:none;
+  border-top:none;
+  box-sizing: border-box;
+}
